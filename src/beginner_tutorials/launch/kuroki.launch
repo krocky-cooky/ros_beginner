@@ -1,0 +1,10 @@
+<launch>
+    <arg name="launchListener" default="false" />
+    <arg name="launchTalker" default="false"/>
+    <group if="$(arg launchListener)">
+        <node name="listener" pkg="beginner_tutorials" type="listener.py" output="screen" launch-prefix="gnome-terminal --command"/>
+    </group>
+    <group if="$(arg launchTalker)">
+        <node name="talker" pkg="beginner_tutorials" type="talker" output="screen" launch-prefix="gnome-terminal --command"/>
+    </group>
+</launch>

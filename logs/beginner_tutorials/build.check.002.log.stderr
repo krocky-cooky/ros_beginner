@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/mech-user/catkin_ws/src/beginner_tutorials/CMakeLists.txt:222 (add_dependencies):
+  The dependency target "beginner_tutorials_generate_message_cpp" of target
+  "simple_action_client" does not exist.
+
+
+make: *** [cmake_check_build_system] Error 1

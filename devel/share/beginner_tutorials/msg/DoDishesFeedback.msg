@@ -1,0 +1,1 @@
+/home/mech-user/catkin_ws/devel/.private/beginner_tutorials/share/beginner_tutorials/msg/DoDishesFeedback.msg

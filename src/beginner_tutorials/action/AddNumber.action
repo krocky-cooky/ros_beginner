@@ -1,0 +1,5 @@
+uint32 number_a
+uint32 number_b
+---
+uint32 number_answer
+---

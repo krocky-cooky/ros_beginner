@@ -1,0 +1,1 @@
+/home/mech-user/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/msg/DoDishesActionGoal.l

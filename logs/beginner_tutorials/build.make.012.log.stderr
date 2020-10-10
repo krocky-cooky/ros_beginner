@@ -1,0 +1,7 @@
+[01m[K/home/mech-user/catkin_ws/src/beginner_tutorials/src/simple_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mech-user/catkin_ws/src/beginner_tutorials/src/simple_action_client.cpp:16:46:[m[K [01;31m[Kerror: [m[K‘[01m[KClient {aka class actionlib::SimpleActionClient<beginner_tutorials::AddNumberAction_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Knumber_answer[m[K’
+         printf("You got a number %ls",client.[01;31m[Knumber_answer[m[K);
+                                              [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/simple_action_client.dir/all] Error 2
+make: *** [all] Error 2

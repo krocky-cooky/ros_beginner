@@ -1,0 +1,8 @@
+[01m[K/home/mech-user/catkin_ws/src/beginner_tutorials/src/simple_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mech-user/catkin_ws/src/beginner_tutorials/src/simple_action_client.cpp:12:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbeginner_tutorials::AddNumberGoal {aka struct beginner_tutorials::AddNumberGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Knumber_b[m[K’; did you mean ‘[01m[Knumber_a[m[K’?
+     goal.[01;31m[Knumber_b[m[K = 3;
+          [01;31m[K^~~~~~~~[m[K
+          [32m[Knumber_a[m[K
+make[2]: *** [CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/simple_action_client.dir/all] Error 2
+make: *** [all] Error 2

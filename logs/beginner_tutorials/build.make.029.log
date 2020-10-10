@@ -1,0 +1,46 @@
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_DoDishesResult
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddNumberFeedback
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_DoDishesFeedback
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddNumberActionResult
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_DoDishesAction
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_DoDishesActionResult
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddNumberGoal
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddNumberActionFeedback
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_DoDishesGoal
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddNumberResult
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_DoDishesActionFeedback
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_DoDishesActionGoal
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddNumberActionGoal
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddNumberAction
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_Num
+[ 48%] Built target beginner_tutorials_generate_messages_cpp
+[ 52%] Built target beginner_tutorials_generate_messages_nodejs
+[ 53%] Built target beginner_tutorials_generate_messages_lisp
+[ 74%] Built target beginner_tutorials_generate_messages_py
+[ 93%] Built target beginner_tutorials_generate_messages_eus
+[35m[1mScanning dependencies of target talker[0m
+[ 93%] Built target beginner_tutorials_generate_messages
+[ 95%] Built target simple_action_client
+[ 98%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 98%] Built target listener
+[01m[K/home/mech-user/catkin_ws/src/beginner_tutorials/src/talker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mech-user/catkin_ws/src/beginner_tutorials/src/talker.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+     [01;31m[Kint[m[K count = 0;
+     [01;31m[K^~~[m[K
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
